@@ -11,7 +11,7 @@ object MockJsonApi {
           "metadata": {"schemaVersion":"1.0","screenType":"login"},
           "topBar": {
             "show": true,
-            "title":"Architect",
+            "title":"KBBank",
             "leading":"ICON",
             "leadingIcon":"bank",
             "showSearch": false,
@@ -44,7 +44,7 @@ object MockJsonApi {
         {
           "id": "home",
           "metadata": {"schemaVersion":"1.0","screenType":"home"},
-          "topBar": {"show": true, "title":"Architect", "leading":"PROFILE", "showSearch": true, "showNotifications": true},
+          "topBar": {"show": true, "title":"KBBank", "leading":"PROFILE", "showSearch": true, "showNotifications": true},
           "bottomNavigation": {
             "selectedIndex": 0,
             "items": [
@@ -81,7 +81,7 @@ object MockJsonApi {
         {
           "id":"payments",
           "metadata": {"schemaVersion":"1.0","screenType":"payments"},
-          "topBar": {"show": true, "title":"Architect", "leading":"PROFILE", "showSearch": false, "showNotifications": true},
+          "topBar": {"show": true, "title":"KBBank", "leading":"PROFILE", "showSearch": false, "showNotifications": true},
           "bottomNavigation": {
             "selectedIndex": 1,
             "items": [
@@ -115,7 +115,7 @@ object MockJsonApi {
           "metadata": {"schemaVersion":"1.0","screenType":"add_beneficiary"},
           "topBar": {
             "show": true,
-            "title":"Architect",
+            "title":"KBBank",
             "leading":"BACK",
             "showSearch": false,
             "showNotifications": true,
@@ -140,7 +140,7 @@ object MockJsonApi {
         {
           "id":"accounts",
           "metadata": {"schemaVersion":"1.0","screenType":"accounts"},
-          "topBar": {"show": true, "title":"Architect", "leading":"PROFILE", "showSearch": false, "showNotifications": true},
+          "topBar": {"show": true, "title":"KBBank", "leading":"PROFILE", "showSearch": false, "showNotifications": true},
           "bottomNavigation": {
             "selectedIndex": 2,
             "items": [
@@ -170,7 +170,7 @@ object MockJsonApi {
         {
           "id":"profile",
           "metadata": {"schemaVersion":"1.0","screenType":"profile"},
-          "topBar": {"show": true, "title":"Architect", "leading":"PROFILE", "showSearch": false, "showNotifications": true},
+          "topBar": {"show": true, "title":"KBBank", "leading":"PROFILE", "showSearch": false, "showNotifications": true},
           "bottomNavigation": {
             "selectedIndex": 3,
             "items": [
@@ -183,7 +183,7 @@ object MockJsonApi {
           "components": [
             {"type":"profile_header","id":"prof_h","name":"Alexander Sterling","memberSince":"January 2022", "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&h=256&auto=format&fit=crop"},
             {"type":"section_header","id":"sec_personal","title":"Personal Information"},
-            {"type":"info_card","id":"info_email","label":"Primary Email","value":"a.sterling@architect.com"},
+            {"type":"info_card","id":"info_email","label":"Primary Email","value":"a.sterling@kbbank.com"},
             {"type":"info_card","id":"info_phone","label":"Phone Number","value":"+1 (555) 892-4410"},
             {"type":"section_header","id":"sec_security","title":"Security & Access"},
             {"type":"settings_group","id":"grp_security","items":[
@@ -197,7 +197,7 @@ object MockJsonApi {
               {"icon":"language","title":"Language","trailingType":"TEXT","trailingText":"English (US)"}
             ]},
             {"type":"button","id":"b_logout","text":"Log Out","button_type":"LOGOUT","action":{"type":"navigate","destination":"login"}},
-            {"type":"footer","id":"ft_profile","text":"Architect v4.2.0 • Secured by Deep Ledger"}
+            {"type":"footer","id":"ft_profile","text":"KBBank v4.2.0 • Secured by Deep Ledger"}
           ]
         }
         """.trimIndent()
